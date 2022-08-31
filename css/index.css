@@ -1,0 +1,456 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 133px;
+}
+.menu .menutop a {
+  color: white;
+  text-decoration: none;
+}
+.menu .menutop li {
+  margin: 120px 20px 0px 20px;
+  list-style: none;
+}
+.menu .menutop li:hover {
+  background-color: #EB7D4B;
+  border-radius: 3px;
+}
+.menu .menutop ul {
+  margin-right: 150px;
+  display: flex;
+}
+.menu .logo {
+  margin-left: 220px;
+  margin-top: 100px;
+}
+
+.headertext {
+  width: 908px;
+  margin: 0 auto;
+}
+.headertext h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 26px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42.1529px;
+  line-height: 64px;
+  color: white;
+}
+
+.button {
+  text-align: center;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+}
+.button button {
+  width: 294px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #EB7D4B;
+  margin-bottom: 147px;
+  color: white;
+  font-size: 18px;
+  font-family: "Titillium Web";
+}
+
+.info {
+  background-color: #17C2A4;
+  height: 748px;
+}
+.info .nd h1 {
+  position: relative;
+  padding-top: 106px;
+  padding-left: 518px;
+  padding-right: 518px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 61px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+.info .nd h1::after {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  background: #BDD1DF;
+  opacity: 0.75;
+  width: 87px;
+  height: 4px;
+  border-radius: 1.75rem;
+}
+.info .nd h3 {
+  padding-top: 30px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.info .row {
+  width: 1050px;
+  height: 310px;
+  padding-left: 195px;
+  margin-top: 117px;
+  margin-bottom: 150px;
+}
+.info .row .col-3 .box1 img {
+  padding-left: 50px;
+  margin: 25px 25px;
+  padding-left: 10px;
+}
+.info .row .col-3 .box1 h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 25px 0px;
+  color: #FFFFFF;
+}
+.info .row .col-3 .box1 p {
+  margin: auto;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.phan3 .info3 {
+  background-color: #E7F1F8;
+}
+.phan3 .info3 .nd3 h1 {
+  font-style: normal;
+  position: relative;
+  text-align: center;
+  width: 609px;
+  font-size: 40px;
+  margin: 0 auto;
+  font-weight: 700;
+  padding-top: 107px;
+}
+.phan3 .info3 .nd3 h1::after {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  background: #BDD1DF;
+  opacity: 0.75;
+  width: 87px;
+  height: 4px;
+  border-radius: 1.75rem;
+}
+.phan3 .info3 .nd3 h3 {
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 74px;
+  font-size: 18.29px;
+  color: #3C4761;
+}
+.phan3 .row3 {
+  display: flex;
+}
+.phan3 .row3 .box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px;
+}
+.phan3 .row3 .box2 h3 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.phan3 .row3 .box2 span {
+  color: #30BAE7;
+  padding-bottom: 20px;
+}
+.phan3 .row3 .box2 p {
+  width: 191px;
+  text-align: center;
+  font-size: 16px;
+  color: #3C4761;
+  padding-bottom: 20px;
+}
+.phan3 .row3 .box2 .icon {
+  margin-bottom: 128px;
+}
+
+.phan4 .info4 .nd4 {
+  align-items: center;
+}
+.phan4 .info4 .nd4 h1 {
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 125px;
+  line-height: 61px;
+}
+.phan4 .info4 .nd4 h1::after {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  background: #BDD1DF;
+  opacity: 0.75;
+  width: 87px;
+  height: 4px;
+  border-radius: 1.75rem;
+}
+.phan4 .info4 .nd4 h3 {
+  color: #3C4761;
+  text-align: center;
+  font-size: 18px;
+  width: 547px;
+  margin: 0 auto;
+  padding-top: 19px;
+}
+.phan4 .info4 .box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phan4 .info4 .box3 img {
+  width: 160px;
+  height: 160px;
+  margin-top: 80px;
+  margin-bottom: 38px;
+}
+.phan4 .info4 .box3 p {
+  text-align: center;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  font-size: 24px;
+  color: #3C4761;
+  margin-bottom: 120px;
+}
+
+.phan5 {
+  background-color: #FFDD99;
+  height: 1440px;
+}
+.phan5 .info5 {
+  display: contents;
+  text-align: center;
+  align-items: center;
+}
+.phan5 .info5 .nd5 h1 {
+  position: relative;
+  padding-top: 125px;
+  color: #393939;
+  font-weight: 700;
+  padding-bottom: 54px;
+}
+.phan5 .info5 .nd5 h1::after {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  background: #BDD1DF;
+  opacity: 0.75;
+  width: 87px;
+  height: 4px;
+  border-radius: 1.75rem;
+}
+.phan5 .info5 .nd5 p {
+  text-align: center;
+  width: 495px;
+  margin: 0 auto;
+}
+.phan5 .info5 .row1 {
+  padding-left: 432px;
+}
+.phan5 .info5 .row1 a {
+  color: white;
+  text-decoration: none;
+}
+.phan5 .info5 .row1 li {
+  margin: 40px 62px 0px 10px;
+  list-style: none;
+}
+.phan5 .info5 .row1 li:hover {
+  background-color: #EB7D4B;
+  border-radius: 3px;
+  width: 100px;
+}
+.phan5 .info5 .row1 ul {
+  margin-bottom: 62px;
+  display: flex;
+}
+.phan5 .info5 .row2 {
+  display: flex;
+  flex-direction: column img;
+  flex-direction-width: 541px;
+  flex-direction-height: 311px;
+}
+.phan5 .info5 .row {
+  margin-bottom: 100px;
+  display: flex;
+}
+.phan5 .info5 .row img {
+  width: 541px;
+  height: 311px;
+  margin: 10px 10px;
+}
+.phan5 .info5 .row h3 {
+  margin: 20px 20px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.phan5 .info5 .button2 {
+  text-align: center;
+}
+.phan5 .info5 .button2 a {
+  text-decoration: none;
+  color: white;
+}
+.phan5 .info5 .button2 button {
+  width: 293px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #17C2A4;
+  margin-bottom: 147px;
+  color: white;
+  font-size: 18px;
+  font-family: "Titillium Web";
+  outline: none;
+  border: none;
+}
+
+.phan6 {
+  background-color: #D74680;
+  padding: 106px 182px;
+}
+.phan6 .info6 .nd6 {
+  align-items: center;
+  text-align: center;
+}
+.phan6 .info6 .nd6 h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+.phan6 .info6 .nd6 h1::after {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  background: #BDD1DF;
+  opacity: 0.75;
+  width: 87px;
+  height: 4px;
+  border-radius: 1.75rem;
+}
+.phan6 .info6 .nd6 h3 {
+  margin-top: 55px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 84px;
+}
+.phan6 .info6 .nd6 .class {
+  margin: 40px 0px;
+}
+
+.phan7 {
+  background-color: #3C5499;
+  padding: 107px 290px;
+}
+.phan7 .info7 .nd7 h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+.phan7 .info7 .nd7 h1::after {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  background: #BDD1DF;
+  opacity: 0.75;
+  width: 87px;
+  height: 4px;
+  border-radius: 1.75rem;
+}
+.phan7 .info7 .nd7 h3 {
+  margin-top: 55px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 84px;
+  width: 860px;
+}
+.phan7 .info7 input {
+  width: 100%;
+  background-color: #273A71;
+  outline: none;
+  border: none;
+  padding: 14px 23px;
+  color: white;
+}
+.phan7 .info7 ::-moz-placeholder {
+  color: white;
+}
+.phan7 .info7 :-ms-input-placeholder {
+  color: white;
+}
+.phan7 .info7 ::placeholder {
+  color: white;
+}
+.phan7 .info7 textarea {
+  width: 100%;
+  background-color: #273A71;
+  outline: none;
+  border: none;
+  padding: 14px 23px;
+  color: white;
+  margin: 42px 0px;
+}
+.phan7 .info7 button {
+  margin: 10px 250px;
+  width: 194px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: #30BAE7;
+}
+.phan7 .info7 button a {
+  text-decoration: none;
+  color: white;
+}
+
+.phan8 {
+  background-color: #344B8E;
+  padding: 40px 0px;
+}
+.phan8 a {
+  margin: 0px 30px;
+  text-decoration: none;
+  color: white;
+}
+.phan8 a:hover {
+  color: #30BAE7;
+}/*# sourceMappingURL=index.css.map */
